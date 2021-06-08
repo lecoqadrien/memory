@@ -1,0 +1,1276 @@
+/* nunito-regular - latin */
+@font-face {
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/nunito-v16-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		 url('../fonts/nunito-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/nunito-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/nunito-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/nunito-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/nunito-v16-latin-regular.svg#Nunito') format('svg'); /* Legacy iOS */
+  }
+
+
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	}
+
+
+	body{
+	background: black;
+	}
+
+	header {
+	background: black;
+	height: 150px;
+	width: 100%;
+	}
+	
+	header nav {
+	position: fixed;
+	width: 85%;
+	border: 1px solid none;
+	float: left;
+	cursor: pointer;
+	background: black;
+	top: 0;
+	left: 0;
+	right: 0;
+	}
+	
+	h1 {
+	position: relative;
+	color: white;
+	font-family: Nunito;
+	font-size: 86px;
+	text-align: center;
+	top: 200px;
+	
+	}
+	h2 {
+	color: white;
+	font-family: Nunito;
+	font-size: 26px;
+	text-align: center;
+	}
+	
+	h3 {
+	position: inherit;
+	text-align: center;
+	font-size: 100Px;
+	color: white;
+	font-family: Nunito;
+	
+	}
+
+	h3:nth-child(1){
+		position:relative ;
+		text-align: center;
+		font-size: 100Px;
+		color: white;
+		font-family: Nunito;
+		left: 20px;
+		top: 90px;
+		font-weight: lighter;
+	}
+
+	h3:nth-child(2){
+		position:relative ;
+		text-align: center;
+		font-size: 90px;
+		color: white;
+		font-family: Nunito;
+		left: 100px;
+		top: 40px;
+		font-weight: normal;
+
+	}
+
+	
+	h4{
+		text-align: left;
+		font-size: 30px;
+		color: white;
+		font-family: Nunito;
+		float: left;
+	}
+
+	h5{
+		text-align: center;
+		color: white;
+		font-family: Nunito;
+		font-size: 24px;
+
+	}
+
+	h6{
+		text-align: center;
+		color: white;
+		font-family: Nunito;
+		font-size: 24px;
+		margin-top: 100px;
+	}
+
+	#type3{
+		margin-bottom: 300px;
+	}
+	
+	nav{
+	width: 70%;
+	background: none;
+	}
+
+	#facebook{
+		width: 50px;
+		float: right;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#instagram {
+		width: 50px;
+		float: right;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	
+
+	ul li{
+	display: inline-block;
+	border: 1px solid black;
+	width: 12%;
+	text-align: center;
+	font-family: Nunito;
+	font-size: 23px;
+	}
+	
+	img {
+	max-width: 100%;
+	float: left;
+	}
+	a {
+	text-decoration: none;
+	color: white;
+	}
+	
+	li {
+	color: white;
+	}
+	
+	li:hover {
+	text-decoration: underline;
+	}
+
+	p{
+		color: white;
+		float: left;
+	}
+	section{
+	width: 100%;
+	height: 90vh;
+	background: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+
+	#main-image {
+		width: 100%;
+		height: 90vh;
+		background: url(../video/Circuit_Imprime.mp4);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	
+	video { 
+		position: relative;
+		top: 50%;
+		left: 50%;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: -100;
+		transform: translateX(-50%) translateY(-50%);
+		transition: 1s opacity;
+	}
+	
+	
+
+	button { 
+	  display: block;
+	  width: 20%;
+	  height: 400px;
+	  padding: .4rem;
+	  border: none; 
+	  font-size: 1.3rem;
+	  background: rgba(255,255,255,0.23);
+	  color: #fff;
+	  border-radius: 3px; 
+	  cursor: pointer;
+	  transition: .3s background;
+	  position: relative;
+	  bottom: 400px;
+	}
+	button:hover { 
+	   background: rgba(0,0,0,0.5);
+	   border: 1px solid whitesmoke;
+	}
+	
+	
+	
+	
+
+
+	#world{
+		height: 100vh;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	
+	}
+
+	/*Les Epoques */
+
+	#epoque{
+		height: 200px;
+		width: 80%;
+		background: none;
+		margin: 0 auto;
+		margin-top: 100px;
+		cursor: pointer;
+
+	}
+
+	#epoque ul .n_menu1{
+		display: inline-block;
+		float: left;
+	}
+
+	#epoques_prehistory{
+		width: 80%;
+		height: 400px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 30px;
+		background: none;
+	}
+
+	#prehistoire:hover{
+		color:#735DFA;
+	}
+
+	#moyenage:hover{
+		color:#735DFA;
+	}
+
+	#Electronique:hover{
+		color:#735DFA;
+	}
+
+	#futur:hover{
+		color:#735DFA;
+	}
+
+
+
+	.cache {
+		display: none;
+	}
+
+	#epoques_revolution{
+		width: 80%;
+		height: 400px;
+		display: none;
+		justify-content: space-around;
+		align-items: center;
+		padding: 30px;
+		background: none;
+	}
+
+	#epoques_electronic{
+		width: 80%;
+		height: 400px;
+		display: none;
+		justify-content: space-around;
+		align-items: center;
+		padding: 30px;
+		background: none;
+	}
+
+	#epoques_futur{
+		width: 80%;
+		height: 400px;
+		display: none;
+		justify-content: space-around;
+		align-items: center;
+		padding: 30px;
+		background: none;
+	}
+
+	#datas{
+		width: 100%;
+		height: 90vh;
+		background: black;
+	}
+
+
+
+
+
+	main{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	}
+	
+	.blocdata{
+	width: calc(60%/2);
+	height: 40vh;
+	background: none;
+	border: 1px solid white;
+	background: red;
+	float: left;
+	
+	}
+
+
+
+
+
+
+
+	/*presentation */
+
+	article{
+		height: 100px;
+		width: 40%;
+		background: gray;
+		margin: 50px 30px;
+		
+		}
+		
+	#presentation {
+		width: 100%;
+		height: 110vh;
+		background: url(../images/fond6.png);
+		background-position: top;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		align-content: center;
+		justify-content: center;
+		}
+
+	.prez{
+		height: 300px;
+		width: 40%;
+		background: black;
+		margin-top: 300px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		margin:10px;
+		padding: 3px;
+	}
+
+	#parpre{
+		text-align: center;
+		font-family: Nunito;
+		margin-top: 12px;
+		color: white;
+	}
+	#periode {
+		width: 400px;
+		color: white;
+		font-family: Nunito;
+		font-size: 15px;
+	}
+
+	img {
+		width: 60%;
+	}
+
+	.addition1{
+		width: 14px;
+		float: right;
+	}
+
+	.addition2{
+		width: 14px;
+		float: right;
+	}
+
+	.addition3{
+		width: 14px;
+		float: right;
+	}
+
+	.addition4{
+		width: 14px;
+		float: right;
+	}
+
+
+
+
+
+
+	/* datatypes */
+	#datatypes{
+	width: 100%;
+	height: 150vh;
+	background: url(../images/terre2.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+    margin: 0 auto;
+	margin-top: 200px;
+	
+	}
+
+
+	.blocs {
+		width: 100%;
+		background: none;
+	}
+
+
+	.datatype1{
+		float:left;
+		width:48%;
+		background:red;
+		height:230px;
+		margin:6Px;
+		background: url(../images/fabio-oyXis2kALVg-unsplash.jpg);
+		background-position: center;
+		background-size: cover;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding: 10px;
+	}
+
+	.datatype2{
+		float:left;
+		width:45%;
+		background:yellow;
+		height:200px;
+		padding:px;
+		background: url(../images/fond2.jpeg);
+		background-position: center;
+		background-size: cover;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 100px;
+		flex-direction: column;
+		padding: 10px;
+	}
+
+	.datatype3{
+		float:left;
+		width:44%;
+		background:red;
+		height:340px;
+		margin:6px;
+		background: url(../images/fond2.jpeg);
+		background-position: center;
+		background-size: cover;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding: 8px;
+	}
+
+	.datatype4{
+		float:left;
+		width:38%;
+		margin-left:60px;
+		background:yellow;
+		height:240px;
+		background: url(../images/fabio-oyXis2kALVg-unsplash.jpg);
+		background-position: center;
+		background-size: cover;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 100px;
+		flex-direction: column;
+		padding: 8px;
+	}
+	
+	.datatype{
+		width: 400px;
+		color: white;
+		font-family: Nunito;
+	}
+
+
+	.cellule_datatype{
+		width: 100%;
+		color: white;
+		font-family: Nunito;
+
+	}
+
+	.binaire_datatype{
+		width: 100%;
+		color: white;
+		font-family: Nunito;
+	}
+
+	.ftp_datatype{
+		width: 100%;
+		color: white;
+		font-family: Nunito;
+	}
+
+	.loc_datatype{
+		width: 100%;
+		color: white;
+		font-family: Nunito;
+	}
+
+
+
+
+	/*Applications*/
+
+	#datap{
+		width: 100%;
+		height: 200px;
+		background: none;
+		display: flex;
+		justify-content: center;
+		}
+
+	#app1{
+		
+		background: url(../images/application1.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: flex;
+		flex-direction: column;
+		
+		opacity: 0.5;
+		cursor: pointer;
+		float: left;
+		width: 54%;
+		padding: 10px;
+		margin: 10px;
+
+	
+	}
+	#app2 {
+		width: 45%;
+		background: url(../images/application6.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: grayscale(0.1);
+		display: flex;
+		flex-direction: column;
+		opacity: 0.5;
+		cursor: pointer;
+		float: left;
+		padding: 10px;
+		margin: 10px;
+	}
+	#app3 {
+		width: 45%;
+		background: url(../images/application3.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: grayscale(0.1);
+		display: flex;
+		flex-direction: column;
+		opacity: 0.5;
+		cursor: pointer;
+		float: left;
+		padding: 10px;
+		margin: 10px;
+		
+	}
+	#app4 {
+		width: 35%;
+		background: url(../images/application4.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: grayscale(0.1);
+		display: flex;
+		flex-direction: column;
+		opacity: 0.5;
+		cursor: pointer;
+		float: left;
+		padding: 10px;
+		margin: 10px;
+	}
+
+	#app1:hover {
+		opacity: 1;
+	}
+
+	#app2:hover {
+		opacity: 1;
+	}
+
+	#app3:hover {
+		opacity: 1;
+	}
+
+	#app4:hover {
+		opacity: 1;
+	}
+
+	#parap1{
+		display: none;
+		color: white;
+		font-size: 15px;
+		font-family: Nunito;
+	
+	}
+
+	#parap2{
+		display: none;
+		color: white;
+		font-size: 15px;
+		font-family: Nunito;
+	}
+
+	#parap3{
+		display: none;
+		color: white;
+		font-size: 15px;
+		font-family: Nunito;
+	}
+
+	#parap4{
+		display: none;
+		color: white;
+		font-size: 15px;
+		font-family: Nunito;
+	}
+
+	hr{
+		position: relative;
+		width: 20%;
+		left: 200px;
+		bottom: 40px;
+	}
+
+	.ligne_app{
+		position: relative;
+		width: 20%;
+		left: 200px;
+		bottom: 310px;
+	}
+
+	#datas {
+		width: 100%;
+		height: 90vh;
+		background: black;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	
+
+
+
+	#protection {
+		width: 100%;
+		background: none;
+		display: flex;
+		
+		flex-direction: column;
+		
+
+	}
+
+	#protect_articles{
+		width: 90%;
+		height: 10px;
+		margin: 0 auto;
+		border: 1px solid none;
+		margin-top: 200px;
+		display: flex;
+		
+		flex-direction: column;
+	}
+
+	#picturelock{
+		width: 10%;
+		margin-top: 100px;
+	}
+
+	.container{
+		margin-top: 200px;
+	}
+	  
+	
+	  
+	  .background-img{
+		
+	  height: 400px;
+		width: 800px;
+		margin: 5% auto;
+		padding:20px;
+		border: 1px solid #2a3cad;
+		border-radius: 4px;
+		box-shadow: 0px 0px 5px #2a3cad;
+		position: relative;
+	  }
+	  
+	  .content h2{ font-size:19px;}
+	  
+	  .box{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 300px;
+		height: 300px;
+		background: #111845a6;
+		box-sizing: border-box;
+		overflow: hidden;
+		box-shadow: 0 20px 50px rgb(23, 32, 90);
+		border: 2px solid #2a3cad;
+		color: white;
+		padding: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	  }
+	  
+	  .box:before{
+		content: '';
+		
+		top:0;
+		
+		
+		transition:0.5s;
+		pointer-events: stroke;
+	  }
+	  
+	  .box:hover:before{
+		left:-50%;
+		transform: skewX(-5deg);
+	  }
+	  
+	  
+	  .box .content{
+		border:1px solid #f0a591;
+		padding:20px;
+		text-align:center;
+		box-shadow: 0 5px 10px rgba(9,0,0,0.5);
+		
+	  }
+	  
+	  .box span{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: block;
+		box-sizing: border-box;
+	  }
+	  
+	  .box span:nth-child(1)
+	  {
+		transform:rotate(0deg);
+	  }
+	  
+	  .box span:nth-child(2)
+	  {
+		transform:rotate(90deg);
+	  }
+	  
+	  .box span:nth-child(3)
+	  {
+		transform:rotate(180deg);
+	  }
+	  
+	  .box span:nth-child(4)
+	  {
+		transform:rotate(270deg);
+	  }
+	  
+	  .box span:before
+	  {
+		content: '';
+		position: absolute;
+		width:100%;
+		height: 2px;
+		background: #50dfdb;
+		animation: animate 4s linear infinite;
+	  }
+	  
+	  @keyframes animate {
+		0% {
+		transform:scaleX(0);
+		transform-origin: left;
+		}
+		50%
+		{
+		  transform:scaleX(1);
+		transform-origin: left;
+		}
+		50.1%
+		{
+		  transform:scaleX(1);
+		transform-origin: right;
+		  
+		}
+		
+		100%
+		{
+		  transform:scaleX(0);
+		transform-origin: right;
+		  
+		}
+		
+		
+	  }
+
+	  .cache {
+		  opacity:0;
+	 	 }
+
+	#parefeu{
+		width: 30%;
+		height: 100%;
+		border: 2px solid none;
+		background: none;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		float: left;
+		display: none;
+		
+
+	}
+
+	#refresh{
+		width: 30%;
+		height: 100%;
+		border: 2px solid none;
+		background: none;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		float: left;
+		display: none;
+
+	}
+
+	#password{
+		width: 30%;
+		height: 100%;
+		border: 2px solid none;
+		background: none;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		float: left;
+		display: none;
+
+	}
+
+	#save{
+		width: 30%;
+		height: 100%;
+		border: 2px solid none;
+		background: none;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		float: left;
+		display: none;
+
+	}
+
+	#publicity{
+		width: 30%;
+		height: 100%;
+		border: 2px solid none;
+		background: none;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		float: left;
+		display: none;
+
+	}
+
+	#malware{
+		width: 30%;
+		height: 100%;
+		border: 2px solid none;
+		background: none;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		float: left;
+		display: none;
+
+	}
+
+	
+	
+
+	
+	  
+
+	#typoparfeu{
+		color: white;
+		font-family: Nunito;
+		text-align: center;
+		float: left;
+	}
+
+	#protect{
+		width: calc(100/2);
+		height: 100vh;
+		background: none;
+		display: block;
+		margin: 45px;
+		padding: 30px;
+		margin: 0 auto;
+		margin-top: 200px;
+		
+		
+
+	}
+
+	#type3{
+		position:relative ;
+		text-align: center;
+		font-size: 100Px;
+		color: white;
+		font-family: Nunito;
+		left: 20px;
+		bottom: 500px;
+		font-weight: lighter;
+	}
+
+	@media (max-width : 990px){
+		.prez{
+			height: 300px;
+			width: 100%;
+			background: black;
+			margin-top: 300px;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			justify-content: center;
+			margin:10px;
+			padding: 3px;
+			margin: 0 auto;
+		}
+
+		#presentation {
+			width: 100%;
+			height: 110vh;
+			background: url(../images/fond6.png);
+			background-position: top;
+			background-repeat: no-repeat;
+			background-size: cover;
+			display: flex;
+			flex-direction: row;
+			align-items: flex-end;
+			align-content: center;
+			justify-content: center;
+			}
+
+			#world{
+				height: 100vh;
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				margin-left: 78px;
+			
+			}
+
+			#epoques_prehistory{
+				width: 100%;
+				height: 400px;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				flex-direction: column;
+				padding: 30px;
+				background: none;
+			}
+
+			#epoque{
+				
+				background: none;
+				margin-top: 100px;
+				cursor: pointer;
+				width: 100%;
+				
+		
+			}
+		
+			#epoque ul .n_menu1{
+				display: block;
+			}
+
+			ul li{
+				display: block;
+				border: 1px solid black;
+				width: 12%;
+				
+				font-family: Nunito;
+				font-size: 23px;
+			}
+
+			#periode{
+				width: 100%;
+			}
+
+			h3:nth-child(1){
+				position:relative ;
+				text-align: center;
+				font-size: 100Px;
+				color: white;
+				font-family: Nunito;
+				left: 2px;
+				top: 90px;
+				font-weight: lighter;
+			}
+		
+			h3:nth-child(2){
+				position:relative ;
+				text-align: center;
+				font-size: 90px;
+				color: white;
+				font-family: Nunito;
+				left: 30px;
+				top: 60px;
+				font-weight: normal;
+			}
+
+			#main-image {
+				width: 100%;
+				height: 90vh;
+				background: url(../video/Circuit_Imprime.mp4);
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				margin: 0 auto;
+
+			}
+
+			#datatypes{
+				width: 100%;
+				height: 100vh;
+				background: url(../images/terre2.jpg);
+				background-position: top;
+				background-repeat: no-repeat;
+				background-size: cover;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				
+			}
+
+			.datatype1{
+				float:left;
+				width:100%;
+				background:red;
+				height:230px;
+				margin:6Px;
+				background: url(../images/fabio-oyXis2kALVg-unsplash.jpg);
+				background-position: center;
+				background-size: cover;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				padding: 10px;
+				margin-top: 300px;
+			}
+
+			.datatype2{
+				float:left;
+				width:100%;
+				background:red;
+				height:230px;
+				margin:6Px;
+				background: url(../images/fabio-oyXis2kALVg-unsplash.jpg);
+				background-position: center;
+				background-size: cover;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				padding: 10px;
+				margin-top: 300px;
+			}
+			
+			.datatype3{
+				float:left;
+				width:100%;
+				background:red;
+				height:230px;
+				margin:6Px;
+				background: url(../images/fabio-oyXis2kALVg-unsplash.jpg);
+				background-position: center;
+				background-size: cover;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				padding: 10px;
+				margin-top: 300px;
+			}
+
+			.datatype4{
+				float:left;
+				width:100%;
+				background:red;
+				height:230px;
+				margin:6Px;
+				background: url(../images/fabio-oyXis2kALVg-unsplash.jpg);
+				background-position: center;
+				background-size: cover;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				padding: 10px;
+				margin-top: 300px;
+			}
+
+			#datas {
+				width: 100%;
+				height: 90vh;
+				background: black;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				margin-top: 2000px;
+			}
+
+			#datap{
+				width: 100%;
+				height: 200px;
+				background: none;
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+			}
+
+			h3 {
+				position: inherit;
+				text-align: center;
+				font-size: 70Px;
+				color: white;
+				font-family: Nunito;
+				}
+			
+				h3:nth-child(1){
+					position:relative ;
+					text-align: center;
+					font-size: 70Px;
+					color: white;
+					font-family: Nunito;
+					left: 20px;
+					top: 90px;
+					font-weight: lighter;
+				}
+			
+				h3:nth-child(2){
+					position:relative ;
+					text-align: center;
+					font-size: 60px;
+					color: white;
+					font-family: Nunito;
+					left: 100px;
+					top: 40px;
+					font-weight: normal;
+			
+				}
+
+				#type3{
+					position:relative ;
+					text-align: center;
+					font-size: 70Px;
+					color: white;
+					font-family: Nunito;
+					left: 20px;
+					bottom: 500px;
+					font-weight: lighter;
+				}
+		
+
+			
+
+		
+	}
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*media-queries */
+
+
